@@ -1,0 +1,29 @@
+.bg-container {
+    background-color: #212123;
+    height:100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: star;
+    padding: 30px;
+}
+
+body {
+    margin: 2rem;
+    background-color: #212123;
+}
+
+.head {
+    color:whitesmoke;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.word1 {
+    color:aqua;
+    
+
+}
+
+.head2 {
+    color:bisque;
+}
