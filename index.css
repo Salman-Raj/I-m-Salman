@@ -1,4 +1,8 @@
-
+.bg-container {
+    background-image:url('https://res.cloudinary.com/dqvaejele/image/upload/v1665684390/wallpaperflare.com_wallpaper_rlrvok.jpg');
+    height:100vh;
+    background-size: cover;
+}
 
 .gradient {
     display: flex;
@@ -6,8 +10,6 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(-45deg,#0c1017,#102952,#0f131a,#050314);
-    background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     box-shadow: 0px 0px 20px black;
     padding: 10px;
