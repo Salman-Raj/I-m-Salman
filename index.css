@@ -1,18 +1,24 @@
 
 
 .gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(-45deg, #e8e85a, #112cd9, #15e6bc, #e73c7e, #cc0e4e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg,#0c1017,#102952,#0f131a,#050314);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     box-shadow: 0px 0px 20px black;
     padding: 10px;
     text-align: center;
+    text-decoration:line-through;
 }
 
+
+
 body {
-    margin: 2rem;
+    margin: 0px;
     background-color: #212123;
 }
 
@@ -22,7 +28,7 @@ body {
 }
 
 .word1 {
-    color:aqua;
+    color:white;
     
 
 }
