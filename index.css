@@ -1,5 +1,4 @@
 .bg-container {
-   
     height:100vh;
     background-size: cover;
     display: flex;
@@ -7,6 +6,17 @@
     justify-content: star;
     padding: 30px;
     background: linear-gradient(-45deg, #e8e85a, #112cd9, #15e6bc, #e73c7e, #cc0e4e, #23a6d5, #23d5ab);
+}
+
+.gradient {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #e8e85a, #112cd9, #15e6bc, #e73c7e, #cc0e4e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px;
+    text-align: center;
 }
 
 body {
